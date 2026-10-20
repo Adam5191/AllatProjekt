@@ -1,0 +1,28 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "EZ egy Állatokkal foglalkozó weblap szerveroldala.",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "állatok"
+    ],
+    "author": "Nagy Zsombor,Hegedűs Ádám,Kungl Richárd",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.6",
+        "dotenv": "^18.0.6",
+        "ejs": "^7.0.1",
+        "express": "^5.2.1",
+        "mongoose": "^9.11.0",
+        "mysql2": "^3.24.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}

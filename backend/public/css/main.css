@@ -1,0 +1,11 @@
+* {
+    font-family: Consolas;
+}
+
+#fo-kontener {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
